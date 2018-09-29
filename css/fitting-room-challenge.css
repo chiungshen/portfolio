@@ -1,0 +1,156 @@
+﻿/*general*/
+
+.fa-plus {
+	color: #3336D3;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #3336D3 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+.h03-pic-link {
+	border: 1.7px solid #02D3AB;
+}
+
+.media-btn::after,
+.media-btn span::before,
+.media-btn span::after,
+.media-btn:hover::after,
+.media-btn:hover span:first-child::before,
+.media-btn:hover span:last-child::after,
+.media-btn:hover span:first-child::after,
+.media-btn:hover span:last-child::before,
+.media-btn:focus {
+	background: #3336D3;
+}
+
+.media-btn:hover {
+	color: #3336D3 !important;
+}
+
+.media-btn.active {
+	color: #3336D3 !important;
+	border-color: #3336D3;
+}
+
+
+/*indivisual*/
+
+#video-wrap {
+	margin: 0;
+	padding: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+#video-bg {
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	/*滿版影片*/
+}
+
+.h02-pic-link {
+	height: 50%;
+	top: 1%;
+	right: -10%;
+	border: 1.7px solid #3336D3;
+}
+
+.h03-pic-link {
+	border: 1.7px solid #3336D3;
+	top: 30%;
+}
+
+#device1 {
+	box-shadow: none;
+}
+
+.fa-plus {
+	color: #3336D3;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #3336D3 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+#device1 {
+	box-shadow: none;
+}
+
+#o2o {
+	box-shadow: none;
+}
+
+.highlight-earljean {
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 25%;
+	background-image: url(../img/project/02fitting/highlight/hightlight02-o2owords.png);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	left: 51%;
+	bottom: -15%;
+	z-index: 51;
+}
+
+@media (max-width: 768px) {
+	.h02-pic-link,
+	.h03-pic-link {
+		width: 100%;
+		height: 35px;
+		text-align: center;
+		right: 0;
+		top: auto;
+		bottom: -25px;
+	}
+	.highlight-earljean {
+		visibility: hidden;
+	}
+	#o2o {
+		border-left: none;
+	}
+	#device1 {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 413px) {
+	.intro-content {
+		text-align: center;
+		padding: 0;
+	}
+	.intro-header-letter h1 {
+		display: block;
+		font-size: 0;
+		border: 0;
+		margin: 0;
+	}
+	.intro-header-title {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+		letter-spacing: 3px;
+	}
+	.h02-intro-content {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}

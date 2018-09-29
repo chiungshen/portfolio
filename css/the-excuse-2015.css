@@ -1,0 +1,136 @@
+﻿/*general*/
+
+.fa-plus {
+	color: #F9CE46;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #F9CE46 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+.h03-pic-link {
+	border: 1.7px solid #F9CE46;
+}
+
+.media-btn::after,
+.media-btn span::before,
+.media-btn span::after,
+.media-btn:hover::after,
+.media-btn:hover span:first-child::before,
+.media-btn:hover span:last-child::after,
+.media-btn:hover span:first-child::after,
+.media-btn:hover span:last-child::before,
+.media-btn:focus {
+	background: #F9CE46;
+}
+
+.media-btn:hover {
+	color: #F9CE46 !important;
+}
+
+.media-btn.active {
+	color: #F9CE46 !important;
+	border-color: #F9CE46;
+}
+
+
+/*indivisual*/
+
+.fa-plus {
+	color: #F9CE46;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #F9CE46 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+#video-wrap {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+#video-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	/*滿版影片*/
+}
+
+
+/*highlight*/
+
+.h02-pic {
+	width: 90%;
+}
+
+.h02-pic-link {
+	border: 1.7px solid #F9CE46;
+	top: 10%;
+	height: 50%;
+}
+
+.h03-pic-link {
+	border: 1.7px solid #F9CE46;
+	top: 35%;
+}
+
+#skylantern {
+	box-shadow: none;
+}
+
+@media (max-width: 768px) {
+	.h02-pic {
+		width: 100%;
+	}
+	.h02-pic-link,
+	.h03-pic-link {
+		width: 100%;
+		height: 35px;
+		text-align: center;
+		right: 0;
+		top: auto;
+		bottom: -25px;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 413px) {
+	.intro-content {
+		text-align: center;
+		padding: 0;
+	}
+	.intro-header-letter h1 {
+		display: block;
+		font-size: 0;
+		border: 0;
+		margin: 0;
+	}
+	.intro-header-title {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+		letter-spacing: 3px;
+	}
+	.h02-intro-content {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}

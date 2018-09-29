@@ -1,0 +1,80 @@
+﻿/*general*/
+
+.fa-plus {
+	color: #F15056;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #F15056 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+.h03-pic-link {
+	border: 1.7px solid #F15056;
+}
+
+.media-btn::after,
+.media-btn span::before,
+.media-btn span::after,
+.media-btn:hover::after,
+.media-btn:hover span:first-child::before,
+.media-btn:hover span:last-child::after,
+.media-btn:hover span:first-child::after,
+.media-btn:hover span:last-child::before,
+.media-btn:focus {
+	background: #F15056;
+}
+
+.media-btn:hover {
+	color: #F15056 !important;
+}
+
+.media-btn.active {
+	color: #F15056 !important;
+	border-color: #F15056;
+}
+
+
+/*indivisual*/
+
+.fa-plus {
+	color: #F15056;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #F15056 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+.h03-pic-link {
+	border: 1.7px solid #F15056;
+}
+
+.media-btn {
+	color: #F15056;
+}
+
+.media-btn::after,
+.media-btn span::before,
+.media-btn span::after,
+.media-btn:hover::after,
+.media-btn:hover span:first-child::before,
+.media-btn:hover span:last-child::after,
+.media-btn:hover span:first-child::after,
+.media-btn:hover span:last-child::before,
+.media-btn:focus {
+	background: #F15056;
+}
+
+.media-btn:hover {
+	color: #F15056 !important;
+}
+
+.media-btn.active {
+	color: #F15056 !important;
+	border-color: #F15056;
+}

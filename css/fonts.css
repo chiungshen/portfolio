@@ -1,0 +1,9 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Anton');        
+@import url('https://fonts.googleapis.com/css?family=Catamaran');  
+/* Braggadocio */
+    @font-face {
+  font-family: "Braggadocio";
+  src: url('../fonts/Braggadocio/Braggadocio.ttf');
+  font-weight: bold;
+  font-style: normal;
+}   

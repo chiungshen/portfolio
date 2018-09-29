@@ -1,0 +1,79 @@
+﻿/*general*/
+
+.fa-plus {
+	color: #DD1B7C;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #DD1B7C 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+.h03-pic-link {
+	border: 1.7px solid #DD1B7C;
+}
+
+.media-btn::after,
+.media-btn span::before,
+.media-btn span::after,
+.media-btn:hover::after,
+.media-btn:hover span:first-child::before,
+.media-btn:hover span:last-child::after,
+.media-btn:hover span:first-child::after,
+.media-btn:hover span:last-child::before,
+.media-btn:focus {
+	background: #DD1B7C;
+}
+
+.media-btn:hover {
+	color: #DD1B7C !important;
+}
+
+.media-btn.active {
+	color: #DD1B7C !important;
+	border-color: #DD1B7C;
+}
+
+
+/*indivisual*/
+
+.fa-plus {
+	color: #DD1B7C;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #02D3AB 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+
+/*highlight*/
+
+@media only screen and (min-width: 0px) and (max-width: 413px) {
+	.intro-content {
+		text-align: center;
+		padding: 0;
+	}
+	.intro-header-letter h1 {
+		display: block;
+		font-size: 0;
+		border: 0;
+		margin: 0;
+	}
+	.intro-header-title {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+		letter-spacing: 3px;
+	}
+	.h02-intro-content {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}

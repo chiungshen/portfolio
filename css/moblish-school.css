@@ -1,0 +1,120 @@
+﻿/*general*/
+
+.fa-plus {
+	color: #02D3AB;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #02D3AB 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+.h03-pic-link {
+	border: 1.7px solid #02D3AB;
+}
+
+.media-btn::after,
+.media-btn span::before,
+.media-btn span::after,
+.media-btn:hover::after,
+.media-btn:hover span:first-child::before,
+.media-btn:hover span:last-child::after,
+.media-btn:hover span:first-child::after,
+.media-btn:hover span:last-child::before,
+.media-btn:focus {
+	background: #02D3AB;
+}
+
+.media-btn:hover {
+	color: #02D3AB !important;
+}
+
+.media-btn.active {
+	color: #02D3AB !important;
+	border-color: #02D3AB;
+}
+
+
+/*indivisual*/
+
+.fa-plus {
+	color: #02D3AB;
+}
+
+.btn-link {
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, #02D3AB 50%, transparent 50%);
+	-webkit-transition: background-position .5s;
+	-moz-transition: background-position .5s;
+}
+
+
+/*highlight*/
+
+.h02-pic-link {
+	border: 1.7px solid #02D3AB;
+}
+
+.h03-pic-link {
+	border: 1.7px solid #02D3AB;
+	top: 35%;
+}
+
+.highlight-mobilish {
+	position: absolute;
+	display: block;
+	width: 50%;
+	height: 25%;
+	background-image: url(../img/project/03mobilish/highlight/highlight03-mobilishwords.png);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	left: 50%;
+	top: 50%;
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	z-index: 51;
+}
+
+@media (max-width: 768px) {
+	#icon {
+		width: 100%;
+	}
+	.h02-pic-link,
+	.h03-pic-link {
+		width: 100%;
+		height: 35px;
+		text-align: center;
+		right: 0;
+		top: auto;
+		bottom: -25px;
+	}
+	.highlight-mobilish {
+		visibility: hidden;
+	}
+	#icon {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 413px) {
+	.intro-content {
+		text-align: center;
+		padding: 0;
+	}
+	.intro-header-letter h1 {
+		display: block;
+		font-size: 0;
+		border: 0;
+		margin: 0;
+	}
+	.h02-intro-content {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
